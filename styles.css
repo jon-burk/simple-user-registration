@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    background-color: #1e1e2f;
+    color: #c4c4dd;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Registration Form */
+.registration-form {
+    background-color: #28293d;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #a0a0b3;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #33334d;
+    color: #ffffff;
+    font-size: 14px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.form-group input:focus {
+    outline: none;
+    border: 1px solid #6f6ff7;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6f6ff7;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+button:hover {
+    background-color: #5757d1;
+}
